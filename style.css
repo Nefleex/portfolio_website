@@ -1,0 +1,407 @@
+@font-face {
+    font-family: Aero_Regular;
+    src: url('Regular.ttf');
+}
+
+@font-face {
+    font-family: monofonto;
+    src: url("monofonto.ttf");
+}
+
+@font-face {
+    font-family: Aero_Light;
+    src: url("Aero Matics Light.ttf");
+}
+
+
+
+
+body{
+    background-color: #0E150E;
+    padding-top:0px;
+    margin-top:0px;
+    margin-left:30px;
+    margin-right:30px;
+    max-width: 1000px;
+    font-family: monofonto;
+    max-height: 1000px;
+}
+
+#sub-1-tab-1-id, #sub-2-tab-1-id, #sub-3-tab-1-id{
+    color:#0E260E;
+}
+
+.js-not-current-sub-tab-1, .js-not-current-sub-tab-2, .js-not-current-sub-tab-3, .js-not-current-sub-tab-1-sub{
+    color:#0E320E;
+}
+
+.sub-tabs-3 li{
+    flex:1; 
+}
+
+.sub-tab-3, .sub-tab-1 ul{
+
+    list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+#header{
+    padding-top:0px;
+    margin-top:0px;
+}
+
+
+.tabs{
+    
+    font-family: monofonto;
+    font-size: 200%;
+    color: #1AF91A;
+   
+}
+
+.section-1, .sub-3-tab-2-section-left-1{
+    display:inline-block;
+    height:300px;
+    font-family: monofonto;
+    font-size:150%;
+    font-weight: 200;
+
+}
+
+img {
+left:0px;
+position: relative;
+bottom:0;
+}
+.face-pic{
+    left:0px;
+    position: relative;
+}
+
+.sub-1-panel, .sub-3-panel{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+    justify-content: space-between;
+
+}
+
+.sub-1-tab-2-section-left, .sub-1-tab-2-section-right, .sub-3-tab-1-section-left, .sub-3-tab-1-section-right, .sub-1-tab-1-section-left{
+    flex:15%;
+}
+
+.sub-1-tab-2-section-left, .sub-3-tab-1-section-left{
+    flex:1;
+    width:30%;
+}
+.sub-1-tab-2-section-right, .sub-3-tab-1-section-right{
+    flex:3;
+    width:70%;
+}
+
+.panel{
+    color: #1AF91A;
+    height:900px;
+
+}
+
+.js-current{
+    border: 3px solid #0E150E !important;
+}
+
+.js-current-sub-tab-3, .js-current-sub-tab-2, .js-current-sub-tab-1, .js-current-sub-tab-1-sub{
+   color:#1AF91A !important;
+}
+
+[hidden]{
+    display:none;
+}
+
+
+ .sub-1-tabs{
+    list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 485px;
+ }
+
+ .sub-2-tabs{
+    list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 465px;
+ }
+
+ .sub-3-tabs{
+    list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 490px;
+ }
+
+.tabs, .sub-3-tabs, .sub-2-tabs {
+   
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.sub-3-tabs, .sub-2-tabs, .sub-1-tabs >div >ul >li {
+   
+    font-size: 150%
+}
+
+.sub-1-tabs {
+    font-size: 150%;
+}
+
+.tabs, .sub-3-tabs, .sub-2-tabs, .sub-1-tabs{
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.tabs, .sub-3-tabs, .sub-2-tabs, .sub-1-tabs li{
+flex:1; 
+    
+}
+
+.push-block{
+    height:200px;
+    width:100%;
+    border:2px white solid;
+}
+
+.ul, .ul2, .ul3, .ul4, .ul5, .ul6, .ul7, .ul8, .sub-3-tab-1-ul{
+    list-style-type: none;
+    padding-left:0px;
+    margin-top:0px;
+    font-size: 150%;
+
+}
+
+.highLightOne, .highLightTwo, .highLightThree, .highLightFour, .highLightFive, .highLightSix, .highLightSeven {
+    background-color: #1AF91A;
+    font-weight: bold;
+    color:#0E260E; !important;
+}
+
+.section-ab, .sub-3-tab-2-section-left-1{
+    
+    
+    font-family: monofonto;
+    font-size:150%;
+    font-weight: 200;
+}
+
+
+
+.navbox1, .navbox2, .navbox3, .navbox4, .navbox5{
+
+}
+
+#box-1 p, #box-2 p, #box-3 p, #box-4 p, #box-5 p{
+    margin:0px;
+}
+
+#box-1{
+    flex: 1 0 20%;-
+}
+#box-2{
+    flex: 1 0 20%;
+}
+
+#box-3{
+    flex: 1 0 20%;
+}
+
+#box-4{
+    flex: 1 0 20%;
+}
+
+#box-5{
+    flex: 1 0 20%;
+}
+
+.hr-1{
+    color:#0E260E !important;
+    background-color:#1AF91A !important;
+    height: 0px !important;
+    border: solid 1px #1AF91A !important;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color:#1AF91A;
+}
+
+/*.container-tab-3{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    height:20px;
+    max-width:900px;
+    width:100%;
+    justify-content: space-between;
+    color:white;
+    text-align: center;
+    align-items: center;
+} */
+
+.para3, .time, .date{
+    margin-top:0px; 
+    margin-bottom:0px;
+    color:green;
+    color: #1AF91A;
+    font-size:120%;
+
+}
+
+.datebar{
+    display:grid;
+    grid-template-columns: 150px 150px auto;
+    width:900px;
+    grid-gap: 3px;
+    position:absolute;
+    top:600px;
+
+}
+
+.time{
+    
+    background-color: #0E260E;
+   
+}
+
+.date{
+    
+    background-color: #0E260E;
+  
+}
+
+.tab-3-box-3{
+    
+    background-color: #0E260E;
+  
+}
+
+
+
+
+
+.container-2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    height:20px;
+    max-width:900px;
+    width:100%;
+    justify-content: space-between;
+    color:white;
+    text-align: center;
+    align-items: center;
+    position:absolute;
+    top:600px;
+}
+
+.box-2-1, .box-2-3 {
+    font-size:120%;
+    font-family: monofonto;
+    color: #1AF91A;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.box-2-1{
+    width: 18%;
+    background-color: #0E260E;
+    margin-right:2px;
+    margin-left:2px;
+    align-items: left;
+    text-align: left;
+
+
+
+
+}
+.box-2-2{
+    width: 64%;
+    background-color: #0E260E;
+    margin-right:3px;
+    
+    
+}
+
+.box-2-3{
+    width: 18%;
+    background-color: #0E260E;
+    padding-right:3px;
+    text-align: right;
+    
+}
+
+
+
+#progressbar2 {
+    flex:4;
+    position:relative;
+    width:70%;
+  background-color: #0E260E;
+  border-radius: 1px;
+  /* (height of inner div) / 2 + padding */
+  padding: 0px;
+  border:1px #1AF91A solid ;
+
+}
+
+#progressbar2>div {
+  background-color: #1AF91A;
+  width: 80%;
+  /* Adjust with JavaScript */
+  height: 16px;
+  border-radius: 1px;
+}
+
+#progress-bar-background2{
+    display:flex;
+    margin:auto;
+    height:17px;
+    background-color: #0E260E;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+#level2{
+    margin-top: -21px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 120%;
+    font-family: monofonto;
+    color: #1AF91A;
+    flex:1;
+    text-align: left;
+}
+
+
+#map{
+    height:500px;
+    width: 500px;
+    margin:0px;
+
+}
