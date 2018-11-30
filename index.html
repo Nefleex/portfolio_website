@@ -129,7 +129,7 @@
   </section>
   <section class="sub-2-tab-1-section-right">
     <div class="sub-2-tab-1-section-right-1">
-      <ul class="ul5">
+      <!--<ul class="ul5">
         <li><a class="li4" href="">Test 1</a></li>
         <li><a class="li4" href="">Test 2</a></li>
         <li><a class="li4" href="">Test 3</a></li>
@@ -137,7 +137,7 @@
         <li><a class="li4" href="">Test 5</a></li>
         <li><a class="li4" href="">Test 6</a></li>
         <li><a class="li4" href="">PH1</a></li>
-      </ul>
+      </ul>-->
     </div>
   </section>
 </div>
@@ -157,7 +157,7 @@
   </section>
 </div>
 <div class="sub-2-panel" id="sub-2-tab-3" hidden>
-  <h2>sub23</h2>
+  <h2>Placeholder 2-3</h2>
 </div>
 </div> 
 
@@ -225,11 +225,11 @@
 <section class="sub-3-tab-2-section-left-1">
   <div class=".sub-3-tab-2-section-left-1">
     <ul class="ul7">
-      <li><a class="li4" href="">Placeholder 1</a></li>
-      <li><a class="li4" href="">Placeholder 2</a></li>
-      <li><a class="li4" href="">Placeholder 3</a></li>
-      <li><a class="li4" href="">Placeholder 4</a></li>
-      <li><a class="li4" href="">Placeholder 5</a></li>
+      <li><a class="li4" href="">Udemy Course: Bootstrap 4</a></li>
+      <li><a class="li4" href="">Udemy Course: ES6</a></li>
+      <li><a class="li4" href="">CSS3 Animations</a></li>
+      <li><a class="li4" href="">CSS Grid and Flexbox</a></li>
+      <li><a class="li4" href="">REST API's</a></li>
     </ul>
   </div>
 </section>
@@ -416,19 +416,19 @@ $(function (){
   $('.li1').click(function(){
   
     if($(this).attr("href") == "str"){
-    $('.display-special').html('str');
+    $('.display-special').html('8');
   }else if($(this).attr("href") == "per"){
-    $('.display-special').html('per');
+    $('.display-special').html('6');
   }else if($(this).attr("href") == "end"){
-    $('.display-special').html('end');
-  }else if($(this).attr("href") == "cha"){
+    $('.display-special').html('7');
+  }else if($(this).attr("href") == "5"){
     $('.display-special').html('cha');
   }else if($(this).attr("href") == "int"){
-    $('.display-special').html('int');
+    $('.display-special').html('7');
   }else if($(this).attr("href") == "agi"){
-    $('.display-special').html('agi');
+    $('.display-special').html('3');
   }else if($(this).attr("href") == "luc"){
-    $('.display-special').html('luck');
+    $('.display-special').html('3');
   }
 
 
@@ -495,10 +495,189 @@ $(function setStatDisplay(){
 
 
 function initMap(){
-  var location = {lav: -25.363, lng: 131.044};
   var map = new google.maps.Map(document.getElementById("map"),{
-      zoom: 4,
-      center: location
+      zoom: 16,
+      center: {lat: 60.156295, lng: 24.532467},
+      styles: [
+    {
+        "featureType": "all",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "color": "#00fe00"
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.neighborhood",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#072c09"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#25421c"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#0c2e0d"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#00fe00"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#07510f"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#184318"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.landcover",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#11320d"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.terrain",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#247347"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#055a05"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#00fe00"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.attraction",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#085916"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#055a05"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#0b3b0b"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "color": "#00fe00"
+            },
+            {
+                "saturation": "71"
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.station",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#056405"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.station",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#00fe00"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#0e1b0f"
+            }
+        ]
+    }
+]
+
+
+
+
   });
 }
  

@@ -122,6 +122,10 @@ bottom:0;
     display:none;
 }
 
+.display-special, #tab-5 p{
+    font-size:150%;
+}
+
 
  .sub-1-tabs{
     list-style-type: none;
@@ -184,12 +188,18 @@ flex:1;
     border:2px white solid;
 }
 
-.ul, .ul2, .ul3, .ul4, .ul5, .ul6, .ul7, .ul8, .sub-3-tab-1-ul{
+.ul, .ul2, .ul3, .ul4, .ul5, .ul6, .ul8, .sub-3-tab-1-ul{
     list-style-type: none;
     padding-left:0px;
     margin-top:0px;
     font-size: 150%;
 
+}
+
+.ul7{
+  list-style-type: none;
+    padding-left:0px;
+    margin-top:0px;  
 }
 
 .highLightOne, .highLightTwo, .highLightThree, .highLightFour, .highLightFive, .highLightSix, .highLightSeven {
@@ -198,7 +208,7 @@ flex:1;
     color:#0E260E; !important;
 }
 
-.section-ab, .sub-3-tab-2-section-left-1{
+.section-ab{
     
     
     font-family: monofonto;
